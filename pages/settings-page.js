@@ -18,7 +18,7 @@ const SettingsPage = (props) => {
                 <div className="settings-page-frame39">
                   <div className="settings-page-frame36">
                     <span className="settings-page-text02">
-                      <span>Reg No.:</span>
+                      <span>ID:</span>
                     </span>
                     <span className="settings-page-text04">
                       <span>Name:</span>
@@ -35,10 +35,10 @@ const SettingsPage = (props) => {
                   </div>
                   <div className="settings-page-frame38">
                     <span className="settings-page-text12">
-                      <span>21BCE0XXX</span>
+                      <span>2525</span>
                     </span>
                     <span className="settings-page-text14">
-                      <span>Malhar Shah</span>
+                      <span>Aadit Shah</span>
                     </span>
                     <span className="settings-page-text16">
                       <span>Male</span>
