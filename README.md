@@ -1,1 +1,3 @@
-# Pet-Adoption-Platform
+# Pet Adoption Platform
+
+This project was created as a practice exercise for implementing UI designs from Figma into a Next.js application. The focus was on translating the visual design elements, layout, and styling from Figma to code, rather than building a fully functional application. While the UI components and navigation structure are implemented, the application does not include backend functionality, data persistence, or user authentication. This serves as a demonstration of frontend development skills and UI implementation rather than a production-ready pet adoption platform.
