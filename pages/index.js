@@ -1,7 +1,14 @@
 import React from 'react'
 import Head from 'next/head'
+import { useRouter } from 'next/router'
 
 const LandingPage = (props) => {
+  const router = useRouter();
+
+  const handleContinue = () => {
+    router.push('/listingpage');
+  };
+
   return (
     <>
       <div className="landing-page-container">
@@ -28,12 +35,12 @@ const LandingPage = (props) => {
             src="/external/paw3svgrepocom1214-7sb.svg"
             className="landing-page-paw3svgrepocom1"
           />
-          <div className="landing-page-text-box6">
+          <div className="landing-page-text-box6" onClick={handleContinue} style={{ cursor: 'pointer' }}>
             <span className="landing-page-text4">
               <span>Continue</span>
             </span>
           </div>
-          <div className="landing-page-text-box7">
+          <div className="landing-page-text-box7" onClick={handleContinue} style={{ cursor: 'pointer' }}>
             <span className="landing-page-text6">
               <span>Continue</span>
             </span>

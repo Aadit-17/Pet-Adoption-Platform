@@ -1,23 +1,28 @@
 {
-  "name": "pet-adoption-platform-copy",
+  "name": "pet-adoption-platform",
   "version": "1.0.0",
-  "description": "A next project generated based on a UIDL document",
+  "description": "A modern pet adoption platform built with Next.js",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "lint": "next lint"
   },
   "author": "TeleportHQ",
   "license": "MIT",
   "dependencies": {
-    "next": "^12.1.10",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "swr": "^2.2.4"
   },
   "engines": {
     "node": ">=18.x"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.1.0"
+  }
 }
